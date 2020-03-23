@@ -1,0 +1,4 @@
+# give a app a name and where to find the config server
+spring:
+  cloud:    config:      name: zuul
+      uri: http://localhost:8888/
